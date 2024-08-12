@@ -1,5 +1,35 @@
 body {
     text-align: center;
+    margin: 0 auto;
+    background-color: #FFEAA7;
+
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DCFFB7;
+    width: 95vw;
+    border-radius: 10px;
+
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FF6868;
+    width: 90vw;
+    border-radius: 10px;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFBB64;
+    width: 90vw;
+    border-radius: 10px;
+    padding: 2vh;
+    height: 10vh;
 }
 
 .links {

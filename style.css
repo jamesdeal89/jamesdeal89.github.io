@@ -1,31 +1,49 @@
+/* Colour palette used: https://coolors.co/palette/3a015c-32004f-220135-190028-11001c*/
+
+
 body {
     text-align: center;
     margin: 0 auto;
-    background-color: #FFEAA7;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #4E31AA, #BBDED6);
+    
 
 }
 
 header {
     margin-left: auto;
     margin-right: auto;
-    background-color: #DCFFB7;
+    background-color: #32004f;
     width: 95vw;
     border-radius: 10px;
+    border-style:groove;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "EDPT" 100, "EHLT" 12;
 
 }
 
 main {
+    margin-top: 0.5vh;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FF6868;
+    background-color: #220135;
+    background-image: linear-gradient(to bottom, #220135, #3a015c);
+    border-style:groove;
+    padding: 1vh;
     width: 90vw;
+    color:azure;
     border-radius: 10px;
 }
 
 footer {
+    margin-top: 0.5vh;
     margin-left: auto;
+    border-style:groove;
     margin-right: auto;
-    background-color: #FFBB64;
+    background-color: #3a015c;
     width: 90vw;
     border-radius: 10px;
     padding: 2vh;

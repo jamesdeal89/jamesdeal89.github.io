@@ -6,8 +6,11 @@ TODO: animate tux to peer around and then go back*/
 body {
     text-align: center;
     margin: 0 auto;
+    width: 100%;
     height: 100%;
     background-image: linear-gradient(to bottom right, #4E31AA, #BBDED6);
+    background-size: cover;
+    background-repeat: no-repeat;
     
 
 }
@@ -49,7 +52,7 @@ main {
     background-image: linear-gradient(to bottom, #220135, #3a015c);
     border-style:groove;
     padding: 1vh;
-    width: 90vw;
+    width: 80vw;
     height: auto;
     color:azure;
     border-color: orange;
@@ -131,7 +134,7 @@ img {
 
 #tux {
     position: absolute;
-    left: 91vw;
+    left: 84vw;
     top: 50%;
     rotate: 50deg;
 }

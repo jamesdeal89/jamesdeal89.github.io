@@ -1,9 +1,8 @@
 
 const hirebut = document.getElementById("hirebut");
 
-function follow(event) {
-    hirebut.style.left = event.clientX + "px";
-    hirebut.style.top = event.clientY + "px";
-}
 
-document.addEventListener("mousemove", follow);
+document.addEventListener("mousemove", function(event) {
+    hirebut.style.left = event.clientX - hirebut.offsetWidth/2 + "px";
+    hirebut.style.top = event.clientY - hirebut.offsetHeight/2 + "px";
+});

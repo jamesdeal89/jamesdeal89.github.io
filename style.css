@@ -15,6 +15,12 @@ body {
 
 }
 
+p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 header {
     height: auto;
     border-color: orange;
@@ -109,6 +115,20 @@ footer {
     100% { transform: translate(1px, -2px) rotate(360deg); }
 }
 
+@keyframes peek {
+    0% { transform: rotate(0deg); }
+    10% { transform: translate(5px,0px) (10deg); }
+    20% { transform: translate(10px,0px) (25deg); }
+    30% { transform: translate(20px,0px) rotate(35deg); }
+    40% { transform: translate(40px,0px) rotate(45deg); }
+    50% { transform: translate(50px,0px) rotate(60deg); }
+    60% { transform: translate(40px,0px) rotate(45deg); }
+    70% { transform: translate(20px,0px) rotate(35deg); }
+    80% { transform: translate(10px,0px) rotate(25deg); }
+    90% { transform: translate(5px,0px) rotate(10deg); }
+    100% { transform: translate(0px,0px) rotate(0deg); }
+}
+
 #hirebut {
     animation: shakeFlip;
     animation-duration: 1s;
@@ -135,7 +155,11 @@ img {
 
 #tux {
     position: absolute;
-    left: 85vw;
+    right: 10vw;
     top: 50%;
-    rotate: 50deg;
+    animation: peek;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
 }

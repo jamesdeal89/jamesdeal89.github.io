@@ -1,10 +1,12 @@
 /* Colour palette used: https://coolors.co/palette/3a015c-32004f-220135-190028-11001c*/
 
+/*TODO: tux poking around side of main content div
+TODO: animate tux to peer around and then go back*/
 
 body {
     text-align: center;
     margin: 0 auto;
-    height: 110vh;
+    height: 100%;
     background-image: linear-gradient(to bottom right, #4E31AA, #BBDED6);
     
 
@@ -52,14 +54,17 @@ main {
     color:azure;
     border-color: orange;
     border-radius: 10px;
+    position: relative;
+    z-index: 2;
 }
 
 footer {
     border-color: orange;
     margin-top: 0.5vh;
     margin-left: auto;
-    border-style:groove;
     margin-right: auto;
+    margin-bottom: 0.5vh;
+    border-style:groove;
     background-color: #3a015c;
     width: 90vw;
     border-radius: 10px;
@@ -122,4 +127,10 @@ footer {
 
 img {
     width: 95px;
+}
+
+#tux {
+    position: absolute;
+    left: 88vw;
+    top: 50%;
 }

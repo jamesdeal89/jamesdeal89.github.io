@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    height: 20vh;
+    height: auto;
     border-color: orange;
     margin-top: 0.5vh;
     margin-left: auto;

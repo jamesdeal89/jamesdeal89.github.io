@@ -131,6 +131,7 @@ img {
 
 #tux {
     position: absolute;
-    left: 88vw;
+    left: 91vw;
     top: 50%;
+    rotate: 50deg;
 }

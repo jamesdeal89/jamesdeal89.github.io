@@ -114,6 +114,7 @@ footer {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     position: absolute;
+    z-index: 5;
     left: 100px;
     top: 100px
 }
@@ -134,7 +135,7 @@ img {
 
 #tux {
     position: absolute;
-    left: 84vw;
+    left: 85vw;
     top: 50%;
     rotate: 50deg;
 }

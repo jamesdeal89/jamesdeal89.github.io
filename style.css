@@ -4,14 +4,16 @@
 body {
     text-align: center;
     margin: 0 auto;
-    height: 100vh;
+    height: 110vh;
     background-image: linear-gradient(to bottom right, #4E31AA, #BBDED6);
     
 
 }
 
 header {
+    height: 20vh;
     border-color: orange;
+    margin-top: 0.5vh;
     margin-left: auto;
     margin-right: auto;
     background-color: #32004f;
@@ -26,6 +28,17 @@ header {
 
 }
 
+h3 {
+    font-size: 25px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
 main {
     margin-top: 0.5vh;
     margin-left: auto;
@@ -35,6 +48,7 @@ main {
     border-style:groove;
     padding: 1vh;
     width: 90vw;
+    height: auto;
     color:azure;
     border-color: orange;
     border-radius: 10px;
@@ -50,7 +64,7 @@ footer {
     width: 90vw;
     border-radius: 10px;
     padding: 2vh;
-    height: 10vh;
+    height: auto;
 }
 
 .links {

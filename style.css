@@ -39,13 +39,6 @@ header {
 
 }
 
-h2 {
-    color: azure;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
 h3 {
     font-size: 25px;
     font-family: "Honk", system-ui;
@@ -139,7 +132,7 @@ footer {
 #hirebut {
     animation: shakeFlip;
     animation-duration: 1s;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
     position: absolute;
     z-index: 5;
     left: 100px;
